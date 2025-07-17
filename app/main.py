@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.schemas import LoanApplication
-from app.model import predict_loan_default
+from schemas import LoanApplication
+from model import predict_loan_default
 
 app = FastAPI()
 
