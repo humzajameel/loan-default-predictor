@@ -13,6 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # 5. Copy the entire project code
 COPY . .
+COPY model.joblib model.joblib
+
 
 # 6. Expose port 8000 (default for FastAPI)
 EXPOSE 8000
